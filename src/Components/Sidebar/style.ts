@@ -14,7 +14,7 @@ export const SidebarIcons = styled.div`
   align-items: center;
   
   ul li{
-    padding: 1.4rem 0.2rem;
+    padding: 0.5rem 0.2rem;
     color: rgb(106, 115, 125);
     list-style: none;
   }
