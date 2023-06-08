@@ -78,5 +78,57 @@ export const ProjectsContainer = styled.main`
 img{
   border-radius: 12px;
 }
+.Tailwind {
+    border: 2px solid #06b6d4;
+    
+}
+.React {
+    border: 2px solid #61dafb;
+}
+.Router{
+  border: 2px solid red;
+}
+.Axios{
+  border: 2px solid yellow
+}
+.StyledComponents{
+  border: 2px solid pink;
+}
+.Typescript{
+  border: 2px solid blue;
+}
+.NodeJS{
+  border: 2px solid #83cd29;
+}
+.express{
+  border: 2px solid #439934;
+}
+.ZOD{
+  border: 2px solid black;
+}
+.HookForm{
+  border: 2px solid purple;
+}
+.nodemon{
+  border: 2px solid yellowgreen;
+}
+.mysql{
+  border: 2px solid lightblue;
+}
+.cors{
+  border: 2px solid tomato;
+}
+.Fastify{
+  border: 2px solid white;
+}
+.Prisma{
+  border: 2px solid gray;
+}
+.NextJS{
+  border: 2px solid lightgoldenrodyellow;
+}
+.React-Native{
+  border: 2px solid #61dafb;
+}
 `
  

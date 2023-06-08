@@ -13,7 +13,6 @@ export function TabBar(){
         <NavLink to='/sobre-mim'><img src={HtmlIcon}/>about.html</NavLink>
         <NavLink to='/contato'><img src={CssIcon}/>contact.css</NavLink>
         <NavLink to='/projetos'><img src={JsIcon}/>project.js</NavLink>
-        <NavLink to='/github'><img src={MarkDownIcon}/>github.md</NavLink>
   </TabBarContainer>
   </>)
 }

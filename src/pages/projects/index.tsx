@@ -14,7 +14,7 @@ const projetos = [
     "name": "Pomodoro",
     "image": "https://i.imgur.com/yujrnJM.png",
     "description": "A pomodoro timer, to improve your productivity",
-    "tags": ["React", "ZOD", "StyledComponents", "Typescript", "RouterDom", "HookForm"],
+    "tags": ["React", "ZOD", "StyledComponents", "Typescript", "Router", "HookForm"],
     "source_code": "https://github.com/Lunatic02/ignite-timer-aulas",
   },
   {
@@ -22,7 +22,7 @@ const projetos = [
     "name": "Crud",
     "image": "https://i.imgur.com/sdkK2S0.png",
     "description": "An Users crud",
-    "tags": ["Styled-components", "axios", "express", "nodemon", "mysql", "cors"],
+    "tags": ["StyledComponents", "Axios", "express", "nodemon", "mysql", "cors", "NodeJS"],
     "source_code": "https://github.com/Lunatic02/Crud",
   },
   {
@@ -71,7 +71,7 @@ export function Projects(){
               )
           })}
       </div>
-      <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Lunatic02&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Lucas Torresin github stats" /> 
+      
     </ProjectsContainer>
   )
 }

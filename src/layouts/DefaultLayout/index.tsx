@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Explorer } from "../../Components/Explorer";
 import { Header } from "../../Components/Header";
+import { Footer } from "../../Components/Footer";
 import { Sidebar } from "../../Components/Sidebar";
 import { TabBar } from "../../Components/TabBar";
 import { About } from "../../pages/about";
@@ -21,14 +22,13 @@ export function DefaultLayout(){
               <TabBar />
               <Routes>
                 <Route path="/" element={<Home />}/>
-                <Route path="/github" element={'github'}/>
                 <Route path="/projetos" element={<Projects />}/>
                 <Route path="/sobre-mim" element={<About />}/>
                 <Route path="/contato" element={<Contact />}/>
               </Routes>
             </LayoutChanging>
         </LayoutContents> 
-        Footer   
+            <Footer />  
       </BrowserRouter>
     </>
   )

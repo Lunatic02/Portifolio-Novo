@@ -1,5 +1,5 @@
 import { SidebarContainer, SidebarIcons } from "./style";
-import {AiFillFolderOpen, AiFillGithub, AiFillSetting, AiOutlineMail, AiOutlineUser} from 'react-icons/ai'
+import {AiFillFolderOpen, AiFillSetting, AiOutlineMail, AiOutlineUser} from 'react-icons/ai'
 import {BsCodeSlash, BsPencil } from 'react-icons/bs'
 import { NavLink } from "react-router-dom";
 
@@ -10,7 +10,6 @@ export function Sidebar(){
           <div>
             <ul>
               <li><NavLink to='/'><AiFillFolderOpen size={36}/></NavLink></li>
-              <li><NavLink to='/github'><AiFillGithub size={36}/></NavLink></li>
               <li><NavLink to='/projetos'><BsCodeSlash size={36}/></NavLink></li>
               <li><NavLink to='/sobre-mim'><BsPencil size={36}/></NavLink></li>
               <li><NavLink to='/contato'><AiOutlineMail size={36}/></NavLink></li>
