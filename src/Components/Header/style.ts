@@ -1,8 +1,7 @@
 import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  width: 100%;
-  height: 1.875rem;
+  height: 30px;
   background-color: #1f2428;
   display: flex;
   color: white;
@@ -26,7 +25,7 @@ export const HeaderContainer = styled.header`
     cursor: pointer;
   }
  div{
-   width: 60%;
+   width: 100%;
    display: flex;
    justify-content: center;
  }
@@ -35,9 +34,7 @@ export const HeaderContainer = styled.header`
    ul li{
      display: none;
    }
-   div{
-     width: 100%;
-   }
+   
  }
 
 `

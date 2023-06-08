@@ -1,11 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.main`
-  background-color: #24292e;
-  height: calc(100vh - 6.3rem);
   padding: 2rem;
   color: #eee;
-  font-family: 'JetBrains Mono', monospace;
 
   .container {
   margin: 1.5rem 0;

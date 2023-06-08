@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
     
     background: #24292e;
     border-top: 1px solid #1b1f23;
-    height: 26px;
+    height: 25px;
     display: flex;
     font-size: 0.8rem;
     padding: 0 0.5rem;

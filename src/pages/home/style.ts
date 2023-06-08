@@ -4,13 +4,11 @@ export const HomeContainer = styled.main`
 
   display: flex;
   justify-content: center;
-  width: 100%;
   background-color: #24292e;
-  height: calc(100vh - 6.3rem);
+  height: 75vh;
   flex-direction: column;
   position: relative;
   padding: 2rem;
-
 
   .background{
     font-size: 5rem;
@@ -19,7 +17,6 @@ export const HomeContainer = styled.main`
     color: rgba(56,58,61,0.35);
     position: absolute;
     z-index: 1;
-
     flex: 1;
   }
   @media screen and (max-width: 1200px){

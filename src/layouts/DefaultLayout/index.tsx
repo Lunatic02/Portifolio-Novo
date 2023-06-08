@@ -8,7 +8,7 @@ import { About } from "../../pages/about";
 import { Contact } from "../../pages/contact";
 import { Home } from "../../pages/home";
 import { Projects } from "../../pages/projects";
-import { Container, LayoutChanging, LayoutContents } from "./styles";
+import { Container, Layout, LayoutChanging, LayoutContents, LayoutFlex } from "./styles";
 
 export function DefaultLayout(){
   return(
@@ -21,12 +21,18 @@ export function DefaultLayout(){
               <Explorer />
               <LayoutChanging>
                 <TabBar />
-                <Routes>
-                  <Route path="/" element={<Home />}/>
-                  <Route path="/projetos" element={<Projects />}/>
-                  <Route path="/sobre-mim" element={<About />}/>
-                  <Route path="/contato" element={<Contact />}/>
-                </Routes>
+                  <LayoutFlex>
+                    <Layout className="layout">
+                      
+                        <Routes>
+                        <Route path="/" element={<Home />}/>
+                        <Route path="/projetos" element={<Projects />}/>
+                        <Route path="/sobre-mim" element={<About />}/>
+                        <Route path="/contato" element={<Contact />}/>
+                        </Routes>
+                    
+                    </Layout>
+                  </LayoutFlex>
               </LayoutChanging>
           </LayoutContents> 
               <Footer />  
