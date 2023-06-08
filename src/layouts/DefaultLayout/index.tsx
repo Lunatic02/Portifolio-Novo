@@ -3,6 +3,10 @@ import { Explorer } from "../../Components/Explorer";
 import { Header } from "../../Components/Header";
 import { Sidebar } from "../../Components/Sidebar";
 import { TabBar } from "../../Components/TabBar";
+import { About } from "../../pages/about";
+import { Contact } from "../../pages/contact";
+import { Home } from "../../pages/home";
+import { Projects } from "../../pages/projects";
 import { LayoutChanging, LayoutContents } from "./styles";
 
 export function DefaultLayout(){
@@ -16,11 +20,11 @@ export function DefaultLayout(){
             <LayoutChanging>
               <TabBar />
               <Routes>
-                <Route path="/" element={'oi'}/>
+                <Route path="/" element={<Home />}/>
                 <Route path="/github" element={'github'}/>
-                <Route path="/projetos" element={'projetos'}/>
-                <Route path="/sobre-mim" element={'Sobre Mim'}/>
-                <Route path="/contato" element={'Contato'}/>
+                <Route path="/projetos" element={<Projects />}/>
+                <Route path="/sobre-mim" element={<About />}/>
+                <Route path="/contato" element={<Contact />}/>
               </Routes>
             </LayoutChanging>
         </LayoutContents> 
