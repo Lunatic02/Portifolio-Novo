@@ -6,8 +6,9 @@ export const HeaderContainer = styled.header`
   background-color: #1f2428;
   display: flex;
   color: white;
+  align-items: center;
   img{
-    width: 1.5rem;
+    width: 1rem;
     margin: 7px;
   }
 
@@ -24,4 +25,19 @@ export const HeaderContainer = styled.header`
     padding: 8px;
     cursor: pointer;
   }
+ div{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+ }
+ @media screen and (max-width: 900px){
+   
+   ul li{
+     display: none;
+   }
+   div{
+     width: 100%;
+   }
+ }
+
 `

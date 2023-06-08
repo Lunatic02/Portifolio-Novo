@@ -8,7 +8,7 @@ export function Explorer(){
   
   
   return(
-    <ExplorerContainer>
+    <ExplorerContainer className="container">
       <ExplorerContainerTitle>
         EXPLORER
       </ExplorerContainerTitle>

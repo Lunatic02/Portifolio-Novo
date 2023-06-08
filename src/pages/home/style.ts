@@ -4,6 +4,7 @@ export const HomeContainer = styled.main`
 
   display: flex;
   justify-content: center;
+  width: 100%;
   background-color: #24292e;
   height: calc(100vh - 6.3rem);
   flex-direction: column;
@@ -21,6 +22,12 @@ export const HomeContainer = styled.main`
 
     flex: 1;
   }
+  @media screen and (max-width: 1200px){
+    .background h1{
+      display: none;
+    }
+  }
+  
 
   .foreground {
   z-index: 2;
@@ -86,6 +93,16 @@ export const HomeContainer = styled.main`
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
     height: 50vh;
+}
+@media screen and (max-width: 1300px) {
+  .image img{
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .image img{
+    display: none;
+  }
 }
 @-webkit-keyframes mover {
     0% { transform: translateY(0); }

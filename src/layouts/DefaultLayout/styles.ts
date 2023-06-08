@@ -7,3 +7,8 @@ export const LayoutChanging = styled.div`
   display: block;
   width: 100%;
 `
+
+export const Container = styled.div`
+  position: relative;
+  min-height: 100vh;;
+`

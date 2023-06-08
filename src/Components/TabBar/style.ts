@@ -6,6 +6,7 @@ export const TabBarContainer = styled.header`
   background-color: black;
   background-color: #1f2428;
   border-top: 1px solid #161a1d;
+  overflow-y: auto;
 
   a{
     color: white;
@@ -27,4 +28,5 @@ export const TabBarContainer = styled.header`
     width: 1.5rem;
     margin: 0px 5px 0px 5px;
   }
+  
 `

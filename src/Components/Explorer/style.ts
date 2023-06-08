@@ -4,7 +4,11 @@ export const ExplorerContainer= styled.div`
   background-color: #1f2428;
   border: 1px solid #161a1d;
   color: #e1e4e8;
-  width: 14.063rem;
+  width: 18vw;
+
+  @media screen and (max-width: 900px) {
+      display: none;
+}
 `
 
 export const ExplorerContainerTitle = styled.div`

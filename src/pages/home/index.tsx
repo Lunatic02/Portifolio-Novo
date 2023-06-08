@@ -6,7 +6,7 @@ export function Home(){
   return (
   <HomeContainer>
     <div className="background">
-      <h1><b>I BUILD</b></h1>
+      <h1>I BUILD</h1>
       <h1>WEBSITES</h1>
     </div>
       <div className="foreground">

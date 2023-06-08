@@ -8,27 +8,29 @@ import { About } from "../../pages/about";
 import { Contact } from "../../pages/contact";
 import { Home } from "../../pages/home";
 import { Projects } from "../../pages/projects";
-import { LayoutChanging, LayoutContents } from "./styles";
+import { Container, LayoutChanging, LayoutContents } from "./styles";
 
 export function DefaultLayout(){
   return(
     <>
       <BrowserRouter>
-          <Header />
-        <LayoutContents>
-            <Sidebar />
-            <Explorer />
-            <LayoutChanging>
-              <TabBar />
-              <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/projetos" element={<Projects />}/>
-                <Route path="/sobre-mim" element={<About />}/>
-                <Route path="/contato" element={<Contact />}/>
-              </Routes>
-            </LayoutChanging>
-        </LayoutContents> 
-            <Footer />  
+          <Container>
+            <Header />
+          <LayoutContents>
+              <Sidebar />
+              <Explorer />
+              <LayoutChanging>
+                <TabBar />
+                <Routes>
+                  <Route path="/" element={<Home />}/>
+                  <Route path="/projetos" element={<Projects />}/>
+                  <Route path="/sobre-mim" element={<About />}/>
+                  <Route path="/contato" element={<Contact />}/>
+                </Routes>
+              </LayoutChanging>
+          </LayoutContents> 
+              <Footer />  
+          </Container>
       </BrowserRouter>
     </>
   )

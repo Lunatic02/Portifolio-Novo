@@ -4,6 +4,8 @@ export const SidebarContainer = styled.aside`
   width: 4.5rem;
   height: calc(100vh - 3.5rem);
   background-color: #24292e;
+
+ 
 ` 
 
 export const SidebarIcons = styled.div`

@@ -15,6 +15,11 @@ export function Header(){
         <li>Terminal</li>
         <li>Help</li>
       </ul>
+      <div>
+        <p>
+          Lucas Torresin - Visual Studio Code
+        </p>
+      </div>
     </HeaderContainer>
   )
 }

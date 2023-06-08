@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
+ 
   .bottomBar{
+    
     background: #24292e;
     border-top: 1px solid #1b1f23;
     height: 26px;
@@ -11,6 +13,7 @@ export const FooterContainer = styled.footer`
     color: #eee;
     display: flex;
     justify-content: space-between;
+    
   }
   .bottomBar a {
   color: white;
@@ -32,4 +35,5 @@ export const FooterContainer = styled.footer`
 .section:hover {
   background: #4f4f52;
 }
+
 `
