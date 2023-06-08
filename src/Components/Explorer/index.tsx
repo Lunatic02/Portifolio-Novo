@@ -4,7 +4,7 @@ import { ExplorerContainer, ExplorerContainerPages, ExplorerContainerTitle } fro
 import { NavLink } from "react-router-dom";
 
 export function Explorer(){
-  const [toggleIcons, setToggleIcons] = useState(false)
+  const [toggleIcons, setToggleIcons] = useState(true)
   
   
   return(

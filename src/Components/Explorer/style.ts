@@ -4,13 +4,15 @@ export const ExplorerContainer= styled.div`
   background-color: #1f2428;
   border: 1px solid #161a1d;
   color: #e1e4e8;
-  width: 12.5rem;
+  width: 14.063rem;
 `
 
 export const ExplorerContainerTitle = styled.div`
   width: 100%;
   font-stretch: condensed;
   letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.1rem;
   padding: 8px;
 `
 
@@ -19,7 +21,7 @@ export const ExplorerContainerPages = styled.div`
   padding: 8px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: .8rem;
+  font-size: .9rem;
   letter-spacing: 1px;
   display: flex;
   align-items: center;
@@ -37,11 +39,11 @@ export const ExplorerContainerPages = styled.div`
 
 export const ExplorerIconsLinks = styled.ul`
   li{
-    padding: 0.2rem 1rem;
+    padding: 0.3rem 1rem;
     display: flex;
     align-items: center;
     list-style: none;
-    font-size: .875rem;
+    font-size: 1rem;
   }
   li a{
     color: white;

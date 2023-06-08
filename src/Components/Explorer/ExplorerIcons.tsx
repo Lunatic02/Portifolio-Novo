@@ -4,7 +4,6 @@ import ReactIcon from '../../assets/react_icon.svg'
 import HtmlIcon from '../../assets/html_icon.svg'
 import JsIcon from '../../assets/js_icon.svg'
 import CssIcon from '../../assets/css_icon.svg'
-import JsonIcon from '../../assets/json_icon.svg'
 import MarkDownIcon from '../../assets/markdown_icon.svg'
 
 export function ExplorerIcons({toggleIcons}:any){
