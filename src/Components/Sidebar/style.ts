@@ -5,8 +5,24 @@ export const SidebarContainer = styled.aside`
   height: calc(100vh - 30px - 25px);
   background-color: #24292e;
   
+
   @media screen and (max-width: 690px){
-    height: calc(100vh + 50px);
+    height: calc(90vh + 15vh + 5vh );
+  }
+  @media screen and (max-width: 425px){
+    height: calc(111vh);
+  }
+  @media screen and (max-width: 414px){
+    height: calc(108vh);
+  }
+  @media screen and (max-width: 400px){
+    height: calc(112vh);
+  }
+  @media screen and (max-width: 375px){
+    height: calc(113vh);
+  }
+  @media screen and (max-width: 320px){
+    height: calc(116vh);
   }
  
 ` 

@@ -24,7 +24,6 @@ export const Layout = styled.div`
   
   overflow-y: auto;
   @media screen and (max-width: 690px){
-    
   }
  
   
