@@ -5,6 +5,7 @@ import vscodeIcon from '../../assets/vscode_icon.svg'
 export function Header(){
   return(
     <HeaderContainer>
+      <div className="content">
       <img src={vscodeIcon} alt="" />
       <ul>
         <li>File</li>
@@ -19,6 +20,7 @@ export function Header(){
         <p>
           Lucas Torresin - Visual Studio Code
         </p>
+      </div>
       </div>
     </HeaderContainer>
   )

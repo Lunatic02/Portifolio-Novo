@@ -14,6 +14,7 @@ export const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-between;
     
+    
   }
   .bottomBar a {
   color: white;

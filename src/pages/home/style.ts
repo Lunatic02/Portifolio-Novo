@@ -9,7 +9,7 @@ export const HomeContainer = styled.main`
   flex-direction: column;
   position: relative;
   padding: 2rem;
-
+ 
   .background{
     font-size: 5rem;
     font-family: 'Montserrat';
@@ -144,4 +144,6 @@ export const HomeContainer = styled.main`
 .outlined:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+
 `

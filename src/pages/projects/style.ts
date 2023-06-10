@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const ProjectsContainer = styled.main`
   padding: 2rem;
   color: #eee;
+  height: calc(100vh - 6.3rem);
+
 
   .container {
   margin: 1.5rem 0;
@@ -35,7 +37,7 @@ export const ProjectsContainer = styled.main`
 .tags {
   display: flex;
   flex-wrap: wrap;
-  margin: 0.5rem 0 1rem;
+  margin: 0.5rem 0.1rem;
 }
 
 .tags span {

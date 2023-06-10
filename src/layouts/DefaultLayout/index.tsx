@@ -8,35 +8,34 @@ import { About } from "../../pages/about";
 import { Contact } from "../../pages/contact";
 import { Home } from "../../pages/home";
 import { Projects } from "../../pages/projects";
-import { Container, Layout, LayoutChanging, LayoutContents, LayoutFlex } from "./styles";
+import { Layout, LayoutChanging, LayoutContents, SearchersContainer,} from "./styles";
 
 export function DefaultLayout(){
   return(
     <>
       <BrowserRouter>
-          <Container>
-            <Header />
+        <Header />
+
           <LayoutContents>
+            <SearchersContainer>
               <Sidebar />
               <Explorer />
+            </SearchersContainer>
               <LayoutChanging>
                 <TabBar />
-                  <LayoutFlex>
                     <Layout className="layout">
                       
                         <Routes>
-                        <Route path="/" element={<Home />}/>
-                        <Route path="/projetos" element={<Projects />}/>
-                        <Route path="/sobre-mim" element={<About />}/>
-                        <Route path="/contato" element={<Contact />}/>
+                          <Route path="/" element={<Home />}/>
+                          <Route path="/projetos" element={<Projects />}/>
+                          <Route path="/sobre-mim" element={<About />}/>
+                          <Route path="/contato" element={<Contact />}/>
                         </Routes>
                     
                     </Layout>
-                  </LayoutFlex>
               </LayoutChanging>
           </LayoutContents> 
               <Footer />  
-          </Container>
       </BrowserRouter>
     </>
   )

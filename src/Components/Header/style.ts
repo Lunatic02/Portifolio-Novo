@@ -1,11 +1,14 @@
 import { styled } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  height: 30px;
+  display: block;
+  width: 100%;
+.content{
   background-color: #1f2428;
   display: flex;
   color: white;
   align-items: center;
+  height: 30px;
   img{
     width: 1rem;
     margin: 7px;
@@ -29,12 +32,17 @@ export const HeaderContainer = styled.header`
    display: flex;
    justify-content: center;
  }
+}
+  height: 30px;
+  
  @media screen and (max-width: 900px){
    
-   ul li{
+  .content ul li{
      display: none;
    }
    
+   
  }
+
 
 `
