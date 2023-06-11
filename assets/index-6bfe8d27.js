@@ -700,7 +700,7 @@ Error generating stack: `+i.message+`
   }
 }
 
-`,Z1="/Portifolio-Novo/assets/trace-4441de9a.svg";function q1(){return d.jsxs(X1,{children:[d.jsxs("div",{className:"background",children:[d.jsx("h1",{children:"I BUILD"}),d.jsx("h1",{children:"WEBSITES"})]}),d.jsxs("div",{className:"foreground",children:[d.jsxs("div",{className:"content",children:[d.jsx("h1",{className:"name",children:"Lucas Torresin"}),d.jsx("h6",{className:"bio",children:"Full Stack Web Developer"}),d.jsx(Jt,{to:"/projetos",children:d.jsx("button",{className:"button",children:"View Work"})}),d.jsx(Jt,{to:"/contato",children:d.jsx("button",{className:"outlined",children:"Contact Me"})})]}),d.jsx("div",{className:"image",children:d.jsx("img",{src:Z1})})]})]})}const b1=ie.main`
+`,Z1="/Portifolio-Novo/assets/trace-4441de9a.svg";function q1(){return d.jsxs(X1,{children:[d.jsxs("div",{className:"background",children:[d.jsx("h1",{children:"I BUILD"}),d.jsx("h1",{children:"WEBSITES"})]}),d.jsxs("div",{className:"foreground",children:[d.jsxs("div",{className:"content",children:[d.jsx("h1",{className:"name",children:"Lucas Torresin"}),d.jsx("h6",{className:"bio",children:"Full Stack Web Developer"}),d.jsx(Jt,{to:"/Portifolio-Novo/projetos",children:d.jsx("button",{className:"button",children:"View Work"})}),d.jsx(Jt,{to:"/Portifolio-Novo/contato",children:d.jsx("button",{className:"outlined",children:"Contact Me"})})]}),d.jsx("div",{className:"image",children:d.jsx("img",{src:Z1})})]})]})}const b1=ie.main`
   padding: 2rem;
   color: #eee;
   height: calc(100vh - 6.3rem);
