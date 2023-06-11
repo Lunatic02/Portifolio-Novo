@@ -15,10 +15,10 @@ export function Home(){
               Lucas Torresin
           </h1>
           <h6 className="bio">Full Stack Web Developer</h6>
-          <Link to="/projetos">
+          <Link to="/Portifolio-Novo/projetos">
               <button className='button'>View Work</button>
             </Link>
-            <Link to="/contato">
+            <Link to="/Portifolio-Novo/contato">
               <button className='outlined'>Contact Me</button>
             </Link>
           </div>
