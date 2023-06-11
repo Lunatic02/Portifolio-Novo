@@ -9,10 +9,10 @@ export function ExplorerIcons({toggleIcons}:any){
   if(toggleIcons){
     return(
       <ExplorerIconsLinks>
-        <li><img src={ReactIcon}/><Link to='/'>home.jsx</Link></li>
-        <li><img src={HtmlIcon}/><Link to='/sobre-mim'>about.html</Link></li>
-        <li><img src={CssIcon}/><Link to='/contato'>contact.css</Link></li>
-        <li><img src={JsIcon}/><Link to='/projetos'>project.js</Link></li>
+        <li><img src={ReactIcon}/><Link to='/Portifolio-Novo/'>home.jsx</Link></li>
+        <li><img src={HtmlIcon}/><Link to='/Portifolio-Novo/sobre-mim'>about.html</Link></li>
+        <li><img src={CssIcon}/><Link to='/Portifolio-Novo/contato'>contact.css</Link></li>
+        <li><img src={JsIcon}/><Link to='/Portifolio-Novo/projetos'>project.js</Link></li>
       </ExplorerIconsLinks>
     )
   } else{

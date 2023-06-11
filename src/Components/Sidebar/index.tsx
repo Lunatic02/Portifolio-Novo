@@ -9,10 +9,10 @@ export function Sidebar(){
       <SidebarIcons>
           <div>
             <ul>
-              <li><NavLink to='/'><AiFillFolderOpen size={30}/></NavLink></li>
-              <li><NavLink to='/projetos'><BsCodeSlash size={30}/></NavLink></li>
-              <li><NavLink to='/sobre-mim'><BsPencil size={30}/></NavLink></li>
-              <li><NavLink to='/contato'><AiOutlineMail size={30}/></NavLink></li>
+              <li><NavLink to='/Portifolio-Novo/'><AiFillFolderOpen size={30}/></NavLink></li>
+              <li><NavLink to='/Portifolio-Novo/projetos'><BsCodeSlash size={30}/></NavLink></li>
+              <li><NavLink to='/Portifolio-Novo/sobre-mim'><BsPencil size={30}/></NavLink></li>
+              <li><NavLink to='/Portifolio-Novo/contato'><AiOutlineMail size={30}/></NavLink></li>
             </ul>
           </div>
           <div>

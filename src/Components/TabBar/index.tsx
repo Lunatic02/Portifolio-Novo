@@ -9,10 +9,10 @@ import MarkDownIcon from '../../assets/markdown_icon.svg'
 export function TabBar(){
   return (<>
   <TabBarContainer>
-        <NavLink to='/'><img src={ReactIcon}/>home.jsx</NavLink>
-        <NavLink to='/sobre-mim'><img src={HtmlIcon}/>about.html</NavLink>
-        <NavLink to='/contato'><img src={CssIcon}/>contact.css</NavLink>
-        <NavLink to='/projetos'><img src={JsIcon}/>project.js</NavLink>
+        <NavLink to='/Portifolio-Novo/'><img src={ReactIcon}/>home.jsx</NavLink>
+        <NavLink to='/Portifolio-Novo/sobre-mim'><img src={HtmlIcon}/>about.html</NavLink>
+        <NavLink to='/Portifolio-Novo/contato'><img src={CssIcon}/>contact.css</NavLink>
+        <NavLink to='/Portifolio-Novo/projetos'><img src={JsIcon}/>project.js</NavLink>
   </TabBarContainer>
   </>)
 }
