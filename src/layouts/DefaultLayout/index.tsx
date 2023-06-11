@@ -26,10 +26,10 @@ export function DefaultLayout(){
                     <Layout className="layout">
                       
                         <Routes>
-                          <Route path="/" element={<Home />}/>
-                          <Route path="/projetos" element={<Projects />}/>
-                          <Route path="/sobre-mim" element={<About />}/>
-                          <Route path="/contato" element={<Contact />}/>
+                          <Route path="/Portifolio-Novo/" element={<Home />}/>
+                          <Route path="/Portifolio-Novo/projetos" element={<Projects />}/>
+                          <Route path="/Portifolio-Novo/sobre-mim" element={<About />}/>
+                          <Route path="/Portifolio-Novo/contato" element={<Contact />}/>
                         </Routes>
                     
                     </Layout>
