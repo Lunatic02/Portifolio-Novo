@@ -43,6 +43,10 @@ export const HeaderContainer = styled.header`
    
    
  }
-
-
+ @media screen and (max-width: 690px) {
+  width: calc(100vw + 8%);
+} 
+@media screen and (max-width: 610px) {
+  width: calc(100vw + 72px);
+}
 `

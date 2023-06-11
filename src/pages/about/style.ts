@@ -24,4 +24,14 @@ export const AboutContainer = styled.main`
   }
   height: 100vh;
 }
+@media screen and (max-width: 500px) {
+  h2{
+    font-size:1.5rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  padding: 1rem;
+  height: 100vh;
+}
 `

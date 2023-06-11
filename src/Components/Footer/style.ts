@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const FooterContainer = styled.footer`
  
   .bottomBar{
-    
     background: #24292e;
     border-top: 1px solid #1b1f23;
     height: 25px;
@@ -36,5 +35,16 @@ export const FooterContainer = styled.footer`
 .section:hover {
   background: #4f4f52;
 }
-
+@media screen and (max-width: 690px) {
+  width: calc(100vw + 8%);
+  .bottomBar {
+    margin: 0 auto;
+   }
+}
+@media screen and (max-width: 610px) {
+  width: calc(100vw + 72px);
+  .bottomBar {
+    margin: 0 auto;
+   }
+}
 `

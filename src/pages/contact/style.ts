@@ -4,8 +4,6 @@ export const ContactContainer = styled.main`
   display: flex;
   background-color: #24292e;
   height: calc(100vh - 6.3rem);
-  display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   position: relative;
   padding: 2rem;
@@ -19,11 +17,11 @@ export const ContactContainer = styled.main`
   h3{
     padding: 2rem;
     line-height: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 100;
     color: #eee;
     font-family: 'JetBrains Mono', monospace;
-    width: 75%;
+    width: 100%;
   }
   h3 span{
     color: #f9826c;
@@ -100,4 +98,66 @@ export const ContactContainer = styled.main`
     text-transform: uppercase;
   }
 
+  @media screen and (max-width: 1510px) {
+    .socials{
+    width: 40%;
+    height: fit-content;
+    border-right: 2px solid #f9826c;
+  }
+    h3{
+    padding: 2rem 0rem;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #eee;
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+   display: block;
+   .socials{
+     width: 100%;
+     border: none;
+   }
+    h3{
+    padding: 2rem 0rem;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #eee;
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width: 690px){
+    height: 100vh;
+    
+  }
+  @media screen and (max-width: 540px){
+    h3{
+      font-size: 1.3rem;
+    }
+    
+  }
+  @media screen and (max-width: 500px){
+   padding: 1rem;
+   h2{
+    font-size:1.4rem;
+  }
+    
+  }
+  @media screen and (max-width: 440px){
+   padding: 1rem;
+   h3{
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 320px){
+   padding: 1rem;
+  h3{
+    font-size: 0.8rem;
+  }
+  }
+  
 `

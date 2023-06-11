@@ -91,35 +91,6 @@ export const HomeContainer = styled.main`
     animation: mover 1s infinite  alternate;
     height: 50vh;
 }
-@media screen and (max-width: 1300px) {
-  .image img{
-    height: 30vh;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .image img{
-    display: none;
-  }
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-@keyframes blink {
-  to {
-    background: transparent;
-  }
-}
 .button {
   background: #f9826c;
   font-size: 1.25rem;
@@ -145,5 +116,82 @@ export const HomeContainer = styled.main`
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+@media screen and (max-width: 1300px) {
+  .image img{
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .image img{
+    display: none;
+  }
+  .name{
+    font-size: 3rem;
+  }
+  .bio {
+    font-size: 1.3rem;
+    margin: 2rem auto;
+    
+  }
+  .content{
+    text-align: center;
+  }
+  
+}
+@media screen and (max-width: 500px) {
+      padding: 1rem;
+  }
+  @media screen and (max-width: 400px) {
+      .name{
+      font-size: 2.5rem;
+    }
+    .bio {
+      font-size: 1.3rem;
+      margin: 2rem auto;
+    }
+    .button{
+      font-size: 1.2rem;
+    }
+    .outlined{
+      font-size: 1.2rem;
+    }
+  }
+@media screen and (max-width: 350px) {
+      .name{
+      font-size: 2rem;
+    }
+    .bio {
+      font-size: 1rem;
+      margin: 2rem auto;
+    }
+    .button{
+      font-size: 1rem;
+    }
+    .outlined{
+      font-size: 1rem;
+    }
+  }
+
+  
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
 
 `
